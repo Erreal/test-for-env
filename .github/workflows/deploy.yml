@@ -16,10 +16,10 @@ jobs:
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USER }}
-        password: ${{ secrets.PASSWORD }}
+        key: ${{ secrets.PRIVATE_KEY }}
         port: 22
         script: |
-          cd ~/home/erreal/test-env
+          cd test-env
           git pull origin main
           git status
           npm install --only=prod
