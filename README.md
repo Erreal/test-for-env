@@ -1,5 +1,5 @@
 # test-for-env
-![example workflow](https://github.com/github/docs/actions/workflows/deploy.yml/badge.svg)
+![Build Status](https://github.com/Erreal/test-for-env/workflows/deploy/badge.svg)](https://github.com/Erreal/test-for-env/actions/workflows/deploy.yml)
 
  Test sandbox for MISIS learning project - https://github.com/okokanya/time-n-quotes
  
